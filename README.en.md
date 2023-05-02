@@ -16,7 +16,7 @@ The production version of the project will be automatically built and deployed t
 
 
 ```js
-// https://vitejs.dev/config/
+// vite.config.js
 export default defineConfig({
   base: "/deploy-vite-project/", //name of your repository
   plugins: [react()],
